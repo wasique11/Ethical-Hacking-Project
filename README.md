@@ -115,15 +115,16 @@ To secure RDP and prevent brute-force attacks, organizations should implement th
 ✔️ Keep Windows and security patches up to date to mitigate known vulnerabilities.
 
 **🛠 Tools Used:**
-Metasploit Framework
-Nmap
-Burp Suite
-Hydra
+Metasploit Framework,
+Nmap,
+Burp Suite,
+Hydra,
 Kali Linux
 
 
 
 **📖 Next Steps**
+
 Chapter 2: Microsoft Office Macro Exploit
 
 Chapter 3: File Upload Vulnerability Exploit in DVWA
