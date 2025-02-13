@@ -1,4 +1,4 @@
-# 🔥 Ethical Hacking Project: RDP, Office Macro & File Upload Exploits
+# 🔥 Penetration Testing Project: RDP, Office Macro & File Upload Exploits
 
 ## 📌 Project Overview  
 This project emphasizes three key areas in cybersecurity and penetration testing:
