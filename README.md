@@ -44,7 +44,7 @@ Before launching an attack, we ensure the target Windows 11 machine is fully pat
 To check if RDP is open on the target, we use Nmap.
 
 **Command Used:**
-sudo nmap -p0-65535 192.168.133.131
+sudo nmap -p0-65535 192.168.133.131 | 
 📌 Findings: Port 3389 (RDP) is open.
 
 **🔹 Step 3: Creating User and Password Lists**
@@ -59,7 +59,7 @@ wasique
 **📌 Example Password List (passlist.txt):**
 123456,
 password,
-admin123,
+admin123
 
 **🔹 Step 4: Brute-Forcing RDP Credentials with Hydra**
 We use Hydra to attempt login with the generated username/password lists.
