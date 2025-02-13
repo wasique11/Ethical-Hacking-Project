@@ -51,21 +51,21 @@ sudo nmap -p0-65535 192.168.133.131
 To perform brute-force, we create username and password lists.
 
 **📌 Example Username List (userlist.txt):**
-txt
-Copy
-Edit
-admin
-user
-administrator
+txt,
+Copy,
+Edit,
+admin,
+user,
+administrator,
 wasique
 
 **📌 Example Password List (passlist.txt):**
-txt
-Copy
-Edit
-123456
-password
-admin123
+txt,
+Copy,
+Edit,
+123456,
+password,
+admin123,
 
 **🔹 Step 4: Brute-Forcing RDP Credentials with Hydra**
 We use Hydra to attempt login with the generated username/password lists.
