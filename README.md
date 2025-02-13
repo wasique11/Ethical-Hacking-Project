@@ -8,12 +8,6 @@ This project emphasizes three key areas in cybersecurity and penetration testing
 
 The goal of this project is to analyze these vulnerabilities, understand their impact, and propose preventive measures to mitigate such risks.
 
-## **📂 Repository Contents**
-- 📜 **[Project Report](report/Project%20Report.pdf)** – Detailed documentation of the attacks, findings, and mitigations.
-- 📂 **src/** – Contains exploit scripts (if applicable).
-- 📖 **References & Research** – Included in the report.
-
-
 # **🛠 Chapter 1: RDP Exploit on Fully Patched Windows 11**  
 ## 🔍 Introduction  
 The **Remote Desktop Protocol (RDP)** allows users to remotely access Windows machines. Despite security patches, RDP is frequently targeted due to weak credentials and improper configurations. This project demonstrates **how an attacker can exploit RDP on a fully patched Windows 11 machine** through brute-force attacks.
