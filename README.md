@@ -121,8 +121,11 @@ Burp Suite
 Hydra
 Kali Linux
 
+
+
 **📖 Next Steps**
 Chapter 2: Microsoft Office Macro Exploit
+
 Chapter 3: File Upload Vulnerability Exploit in DVWA
 
 🔍 Read Full Project Report
